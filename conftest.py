@@ -22,6 +22,6 @@ def browser(request):
 
     yield browser
     # time to wait for the button text
-    time.sleep(10)
+    time.sleep(2)
     print("\nquit browser..")
     browser.quit()
