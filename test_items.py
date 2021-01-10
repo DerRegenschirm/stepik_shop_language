@@ -4,4 +4,4 @@ def test_add_to_cart_button(browser):
     browser.get(link)
 
     #find the button
-    browser.find_element_by_css_selector(".btn-add-to-basket")
+    assert browser.find_element_by_css_selector(".btn-add-to-basket"), 'Choose another language'
